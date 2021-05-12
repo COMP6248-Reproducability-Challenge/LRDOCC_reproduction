@@ -2,6 +2,10 @@ import torch
 import torch.nn as nn
 
 
+## This script is due to the github user: @tonylins. Provided as part of 
+## reproducing results of the SimCLR paper
+## https://github.com/tonylins/simclr-converter
+
 def conv3x3(in_planes, out_planes, stride=1, groups=1, dilation=1):
     """3x3 convolution with padding"""
     return nn.Conv2d(in_planes, out_planes, kernel_size=3, stride=stride,
