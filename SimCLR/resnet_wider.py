@@ -2,9 +2,13 @@ import torch
 import torch.nn as nn
 
 
-## This script is due to the github user: @tonylins. Provided as part of 
-## reproducing results of the SimCLR paper
-## https://github.com/tonylins/simclr-converter
+"""This script is due to the github user: @tonylins. Provided as part of 
+  reproducing results of the SimCLR paper
+  https://github.com/tonylins/simclr-converter
+  
+  Instantiation of ResNet1x as provided by the SimCLR paper:
+  https://arxiv.org/abs/2002.05709
+  """
 
 def conv3x3(in_planes, out_planes, stride=1, groups=1, dilation=1):
     """3x3 convolution with padding"""
