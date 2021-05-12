@@ -1,7 +1,5 @@
 # RE' Learning and Evaluating Representations for Deep One-Class Classification
 
-![](./asset/paper_fig1)
-
 This repository contains code to reproduce results from tables 2 and 7 of the paper: ["Learning and Evaluating Representations for Deep One-Class Classification"](https://openreview.net/forum?id=HCSgyPUfeDj) as part of the COMP6248 UoS Reproducability challenge.
 
 ### Reproduction
