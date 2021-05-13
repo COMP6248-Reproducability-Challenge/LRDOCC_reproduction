@@ -10,6 +10,13 @@ Each folder contains scripts to generate the respective method representations a
 - Rotation_prediction: reproduction of experiments with a rotation prediction ResNet18 network on fMNIST.
 - SimCLR: reproduction of experiments with the [SimCLR](https://arxiv.org/abs/2002.05709) network on fMNIST and CIFAR10.
 
+### Requirements
+
+    - Python=3.7
+    - PyTorch=1.8
+    - torchvision=0.9
+    - scikit-learn=0.22
+
 Team members:
 
 - Niko Chazaridis (@chazarnik)
