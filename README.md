@@ -2,7 +2,7 @@
 
 This repository contains code to reproduce results from Table 2 and Table 7 of the paper: ["Learning and Evaluating Representations for Deep One-Class Classification"](https://openreview.net/forum?id=HCSgyPUfeDj) as part of the COMP6248 UoS Reproducability Challenge.
 
-![Image of Yaktocat](https://github.com/COMP6248-Reproducability-Challenge/LRDOCC_reproduction/blob/main/Paper_Figure1.PNG)
+![Paper_Figure1](https://github.com/COMP6248-Reproducability-Challenge/LRDOCC_reproduction/blob/main/Paper_Figure1.PNG | width = 80)
 
 ### Reproduction
 Each folder contains scripts to generate the respective method representations and subsequently perform one class-classification with linear and RBF kernel OC-SVMs.
