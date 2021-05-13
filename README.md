@@ -1,14 +1,15 @@
 # RE' Learning and Evaluating Representations for Deep One-Class Classification
 
-This repository contains code to reproduce results from tables 2 and 7 of the paper: ["Learning and Evaluating Representations for Deep One-Class Classification"](https://openreview.net/forum?id=HCSgyPUfeDj) as part of the COMP6248 UoS Reproducability challenge.
+This repository contains code to reproduce results from Table 2 and Table 7 of the paper: ["Learning and Evaluating Representations for Deep One-Class Classification"](https://openreview.net/forum?id=HCSgyPUfeDj) as part of the COMP6248 UoS Reproducability Challenge.
 
 ### Reproduction
-Each folder contains scripts to generate the respective method representations and subsequently perform one class-classification with linear and rbf kernel OC-SVMs.
+Each folder contains scripts to generate the respective method representations and subsequently perform one class-classification with linear and RBF kernel OC-SVMs.
 
-- Denoising: reproduction of experiments with a denoising autoencoder on fMNIST and CIFAR10.
-- Random_and_Imagenet: reproduction of experiments with a ResNet18(random weights) and a pre-trained resnet on fMNIST, CIFAR10 and CIFAR100.
-- Rotation_prediction: reproduction of experiments with a rotation prediction ResNet18 network on fMNIST.
+- ResNet18-50_Baseline_Model: reproduction of experiments on ResNet18 (random weights) and an ImageNet pre-trained ResNet50 on f-MNIST, CIFAR10 and CIFAR100.
+- Denoising_Model: reproduction of experiments with a denoising autoencoder on fMNIST and CIFAR10.
+- Rotation_Prediction_Model: reproduction of experiments with a rotation prediction ResNet18 network on fMNIST.
 - SimCLR: reproduction of experiments with the [SimCLR](https://arxiv.org/abs/2002.05709) network on fMNIST and CIFAR10.
+- Table_Means_Verification: verification of the row means of all tables in the paper.
 
 ### Requirements
 
