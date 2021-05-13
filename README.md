@@ -20,7 +20,7 @@ Each folder contains scripts to generate the respective method representations a
     - torchvision=0.9
     - scikit-learn=0.22
 
-Team members:
+### Team members:
 
 - Niko Chazaridis (@chazarnik)
 - Marios Christodoulou (@mchris7)
